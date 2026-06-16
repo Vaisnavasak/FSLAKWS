@@ -7,7 +7,7 @@
 5. System will display every timestamp where 
    keyword was spoken
 6. User can view their previous search history
-
+   
 **NON FUNCTIONAL REQUIREMENTS:**
 
 1. System should process audio fast and accurately
