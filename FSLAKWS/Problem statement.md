@@ -1,6 +1,6 @@
 ### Problem statement:
 
-&#x20;      Finding a specific word in a long text manually might be easier. But looking for a specific word and finding it in an long audio manually is a difficult and time-consuming process. Basically every existing system needs 1000s of word samples and works only in a specific language
+&#x20;      Finding a specific word in a long text manually might be easier. But looking for a specific word and finding it in an long audio manually is a difficult and time-consuming process. Basically every existing system needs thousands of word samples and works only in a specific language
 
 
 
