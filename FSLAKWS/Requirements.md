@@ -1,7 +1,7 @@
 **FUNCTIONAL REQUIREMENTS:**
 
 1. User can register and login to the system
-2. User can upload 5 audio samples of a keyword
+2. User can record or upload 5 audio samples of a keyword
 3. User can upload a long audio file to search in
 4. System will find the keyword in the long audio
 5. System will display every timestamp where 
