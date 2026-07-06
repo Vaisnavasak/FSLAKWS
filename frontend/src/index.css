@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --navy-deep: #0B192C; /* Premium dark navy */
+  --navy-light: #1E2A38;
+  --navy-accent: #134074;
+  --gold-chrome: #F5A623; /* Classic Chrome Yellow */
+  --gold-light: #FFD54F;
+  --gold-gradient: linear-gradient(135deg, #FBBF24, #F59E0B);
+  --cream-bg: #FCFBF7; /* Cozy warm cream white */
+  --text-dark: #0D1B2A;
+  --text-muted: #4A5D6E;
+  --shadow-sm: 0 2px 8px rgba(11, 25, 44, 0.04);
+  --shadow-md: 0 10px 25px rgba(11, 25, 44, 0.08);
+  --shadow-lg: 0 20px 40px rgba(11, 25, 44, 0.12);
+  --border-radius: 12px;
+
+  --sans: 'Outfit', system-ui, -apple-system, sans-serif;
+
+  font: 16px/150% var(--sans);
+  color: var(--text-dark);
+  background-color: var(--cream-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--cream-bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(11, 25, 44, 0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(11, 25, 44, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(11, 25, 44, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sans);
+  font-weight: 700;
+  color: var(--navy-deep);
+  margin-top: 0;
+}
+
+input, select, textarea {
+  font-family: var(--sans);
+  box-sizing: border-box;
+}
+
+/* Selection colors */
+::selection {
+  background-color: rgba(245, 166, 35, 0.2);
+  color: var(--navy-deep);
+}
